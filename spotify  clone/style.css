@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+body{
+    background-color:antiquewhite;
+
+}
+*{
+    margin:0;
+    padding:0;
+
+}
+nav{
+    font-family: 'Righteous', cursive;
+    color:white;
+
+}
+nav ul{
+    display:flex;
+    list-style: none;
+    height:65px;
+    background-color:black;
+    color:white;
+    align-items:center;
+}
+nav ul li{
+    
+    padding:0px 12px;
+}
+.brand img{
+    width:40px;
+}
+.brand{
+    display:flex;
+    align-items:center;
+    font-weight:bolder;
+    font-size:1.3rem;
+
+}
+.container{
+    min-height:75vh;
+    background-color:black;
+    color:white;
+    font-family:'Righteous', cursive;
+    display:flex;
+    margin:23px auto;
+    width:70%;
+    border-radius:12px;
+    padding:34px;
+    background-image:url(https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w600/library/wp-content/uploads/2017/09/13-Places-to-Find-Background-Music-for-Video-Cover-Image-2.jpg);
+}
+.Bottom{
+    position:sticky;
+    height:130px;
+    background-color: black;
+    color:white;
+    bottom:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    margin:12px 0px;
+
+}
+
+.icons{
+    margin-top:14px;
+}
+#myProgressBar{
+width:90vw;
+cursor:pointer;
+
+}
+.songItemcontainer{
+    margin:74px;
+
+}
+.songItem{
+    height:50px;
+    display:flex;
+   width:100%;
+   background-color: white;
+   color:black;
+   justify-content:space-around;
+   align-items:center;
+   border-radius:30px;
+   padding:12px 0px;
+   margin:34px;
+
+}
+.songItem img{
+    width:43px;
+    margin:0 23px;
+    border-radius:20px;
+    
+}
+.timestamp{
+    margin: 0 23px;
+
+}
+.timestamp i{
+    cursor:pointer;
+}
+.songinfo{
+    
+    left:10vw;
+    font-family:'Righteous', cursive;
+    
+
+}
